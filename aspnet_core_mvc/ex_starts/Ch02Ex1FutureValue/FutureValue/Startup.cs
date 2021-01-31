@@ -18,7 +18,7 @@ namespace FutureValue
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();//Use the build in handler
             }
             else
             {
