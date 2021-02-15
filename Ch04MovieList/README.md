@@ -1,6 +1,6 @@
 # Chapter 4 Movie List
 # Application running:
-![Application running](Images/applicationRunning.PNG)
+![Application running](Images/ApplicationRunning.PNG)
 
 # Edit functionality part 1:
 ![Edit 1 ](Images/edit.PNG)
