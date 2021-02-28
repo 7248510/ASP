@@ -1,4 +1,4 @@
-# Chapter 6 Routing Practices
+# Chapter 6 Routing Practice
 # Application running:
 ![Application running](Images/applicationRunning.PNG)
 
@@ -40,4 +40,3 @@
 
 # Segment change id to num
 ![segment id to num](Images/segmentchangeidtonum.PNG)
-
