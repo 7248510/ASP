@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n/S9F/DSYkBsshxFZhDvYMIBeco87jgf5uisfeZaGGHNMAQYY1SYZLVZgFz6tVHRztP7X6VeYD97yIfWm0pQWw==",
+  "dgSpecHash": "wU7/G0swZuie5mnNQbzeFGgS6FiWKu0ElVPgOrzoMAE4IreQfSYDmPrOilSAGtjkq6+7PvlwrAuycFRiap4i/Q==",
   "success": true,
-  "projectFilePath": "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
+  "projectFilePath": "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caleb\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Caleb\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

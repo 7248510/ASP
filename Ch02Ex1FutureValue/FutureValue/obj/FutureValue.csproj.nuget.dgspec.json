@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj": {}
+    "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj": {}
   },
   "projects": {
-    "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj": {
+    "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
+        "projectUniqueName": "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
         "projectName": "FutureValue",
-        "projectPath": "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
+        "projectPath": "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\FutureValue.csproj",
         "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-        "outputPath": "H:\\Code\\Github\\ASP\\aspnet_core_mvc\\ex_starts\\Ch02Ex1FutureValue\\FutureValue\\obj\\",
+        "outputPath": "H:\\Code\\Github\\ASP\\Ch02Ex1FutureValue\\FutureValue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
