@@ -18,7 +18,7 @@
 ![Added Prompt](Images/addPrompt.PNG)
 
 # Added Product
-![Added product](Images/addProduct.PNG)
+![Added product](Images/addedProduct.PNG)
 
 # Update prompt
 ![Updated Prompt](Images/updatePrompt.PNG)
