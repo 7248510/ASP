@@ -1,0 +1,18 @@
+﻿@model TeamListViewModel //Import the model
+@{ 
+    ViewData["Title"] = "Default Name";
+}
+<div class="text-center"> <!--347 -->
+    <form asp-action="Change" method="post">
+        <input asp-for="@Model.UserName" placeholder="Type name here" class="mb-3" />
+        <br />
+        <a asp-action="Index" asp-controller="Home" class="btn btn-primary"
+           asp-route-activeConf="@Model.ActiveConf"
+           asp-route-activeDiv="@Model.ActiveDiv">
+            Home Page
+        </a>
+        <button type="submit" class="btn btn-primary">
+            Change Name
+        </button>
+    </form>
+</div>
