@@ -1,29 +1,30 @@
-# Chapter 9 NFL Teams
+# Chapter 9 NFL Teams:
+
 # Application running:
 ![Application running](Images/applicationRunning.PNG)
 
-# Favorites Page:
+# Favorites page:
 ![Product list default](Images/Favorites.PNG)
 
-# Add Favorites:
+# Add favorites:
 ![Product list default](Images/addFavorites.PNG)
 
-# Add Favorites Message:
+# Add favorites message:
 ![Product list admin default](Images/addFavoritesMessage.PNG)
 
 # Favorites clear:
 ![Product list admin modified](Images/favoritesCleared.PNG)
 
-# Favorites Before Change:
+# Favorites before change:
 ![Added Prompt](Images/favoritesPageBeforeChange.PNG)
 
-# My Favorites:
+# My favorites:
 ![Added product](Images/myFavorite.PNG)
 
-# Change Name(Name Index):
+# Change name(Name Index):
 ![Updated Prompt](Images/nameIndex.PNG)
 
-# Change Name John:
+# Change name prompt(John):
 ![Updated Product](Images/changeNameJohn.PNG)
 
 # Changed name to John:
