@@ -2,7 +2,7 @@
 # Application running:
 ![Application running](Images/applicationRunning.PNG)
 
-# Favorites Page
+# Favorites Page:
 ![Product list default](Images/Favorites.PNG)
 
 # Add Favorites:
@@ -11,20 +11,20 @@
 # Add Favorites Message:
 ![Product list admin default](Images/addFavoritesMessage.PNG)
 
-# Favorites clear
+# Favorites clear:
 ![Product list admin modified](Images/favoritesCleared.PNG)
 
-# Favorites Before Change
+# Favorites Before Change:
 ![Added Prompt](Images/favoritesPageBeforeChange.PNG)
 
-# My Favorites
+# My Favorites:
 ![Added product](Images/myFavorite.PNG)
 
-# Change Name(Name Index)
+# Change Name(Name Index):
 ![Updated Prompt](Images/nameIndex.PNG)
 
-# Change Name John
+# Change Name John:
 ![Updated Product](Images/changeNameJohn.PNG)
 
-# Changed name to John
+# Changed name to John:
 ![Updated Product](Images/johnsFavorites.PNG)
