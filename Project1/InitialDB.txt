@@ -1,0 +1,18 @@
+protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Trips",
+                columns: table => new
+                {
+                    TripId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Destination = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    startDate = table.Column<string>(type: "datetime2(7)", nullable: false),
+                    endDate = table.Column<string>(type: "datetime2(7)", nullable: false),
+                    Accommodation = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    AccommodationPhone = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    AccommodationEmail = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ThingToDo1 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ThingToDo2 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ThingToDo3 = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
