@@ -1,0 +1,22 @@
+﻿@model List<Trip>
+@{
+    ViewBag.Title = "My Trip Log";
+}
+<body>
+    <a asp-controller="Trip" asp-action="Add">Add Trip</a>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr><th>Destination</th><th>Start Date</th><th>End Date</th><th>Accommodations</th><th>Things To Do</th></tr>
+        </thead>
+        <tbody>
+            <!--foreach (trip in Models.Trip)-->
+            <!--
+            <tr>
+                <td>trip.Accommodation</td>
+                <td>trip.Destination</td>
+                <td>trip.endDate</td> Added the .Name| the output needs to be specific genre has multiple properties
+            <td>trip.startDate</td>
+            </tr>
+            -->
+    </table>
+</body>
