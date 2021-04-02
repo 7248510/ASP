@@ -1,0 +1,35 @@
+﻿@model quotationModel
+@{
+    ViewBag.Title = "Price Quotiation";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!--A Title and stylesheet link is not necessary because of the layout page-->
+</head>
+<body>
+    <h1>Price Quotation</h1>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+
+        <div>
+            <label asp-for="subTotal">Subtotal:</label>
+            <input asp-for="subTotal" />
+        </div>
+        <div>
+            <label asp-for="discountPercent">Discount percent:</label>
+            <input asp-for="discountPercent" />
+        </div>
+
+        <div>
+            <pre>Discount amount:             @ViewBag.FV.ToString("C2")</pre>
+        </div>
+        <div>
+            <pre>Total:                                @ViewBag.discountPercent.ToString("C2")</pre>
+        </div>
+        <button type="submit">Calculate</button>
+        <a asp-action="Index">Clear</a>
+    </form>
+</body>
+</html>
