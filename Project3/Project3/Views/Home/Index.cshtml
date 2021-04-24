@@ -1,0 +1,53 @@
+﻿@model quotationModel
+@{
+    ViewBag.Title = "Price Quotation";
+}
+<div class="container">
+    <header class="jumbotron bg-success">
+        <h1 class="mt-3 text-center" style="font-size:4rem; color:white;"><i class="fas fa-money-bill-alt" style="color:white;"></i> @ViewBag.Title</h1>
+    </header>
+    <main>
+        <form asp-action="Index" method="post">
+            <div class="row form-group">
+                <label asp-for="subTotal"
+                       class="col-sm-3">Subtotal: </label>
+                <div class="col-sm-3">
+                    <input asp-for="subTotal" class="form-control" />
+                </div>
+                <span asp-validation-for="subTotal"
+                      class="col text-danger"></span>
+            </div>
+            <div class="row form-group">
+                <label asp-for="discountPercent" class="col-sm-3">
+                    Discount percent:
+                </label>
+                <div class="col-sm-3">
+                    <input asp-for="discountPercent" class="form-control" />
+                </div>
+                <span asp-validation-for="discountPercent"
+                      class="col text-danger"></span>
+            </div>
+            <div class="row form-group">
+                <label class="col-sm-3">Discount amount:</label>
+                <div class="col-sm-3">
+                    <p>@ViewBag.FV.ToString("C2")</p>
+                </div>
+            </div>
+            <div class="row form-group">
+                <label class="col-sm-3">Total:</label>
+                <div class="col-sm-3">
+                    <p>@ViewBag.discountPercent.ToString("C2")</p>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col offset-sm-3">
+                    <button type="submit" class="btn btn-success">
+                        Calculate
+                    </button>
+                    <a asp-action="Index"
+                       class="btn btn-success">Clear</a>
+                </div>
+            </div>
+        </form>
+    </main>
+</div>
